@@ -1,5 +1,6 @@
 class StaticController < ApplicationController
    def about
-     "static/hello_world"
+     get "static/hello_world" do
+     end
   end
 end
